@@ -1,4 +1,4 @@
-export const Content = ({weatherData})=>{
+const Content = ({weatherData})=>{
     return (
         <>
             <div className="text-center bg-grey-500 p-6 rounded-lg gap-5">
@@ -28,3 +28,4 @@ export const Content = ({weatherData})=>{
         </>
     )
 }
+export default Content;
